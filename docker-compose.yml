@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  apps:
+    image: openshift-demo
+    ports:
+      - 9090:9090
